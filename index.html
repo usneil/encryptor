@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head><script>(function(){(function(){function e(a){this.t={};this.tick=function(a,c,b){this.t[a]=[void 0!=b?b:(new Date).getTime(),c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(h){}};this.tick("start",null,a)}var a;window.performance&&(a=window.performance.timing);var f=a?new e(a.responseStart):new e;window.mobilespeed_jstiming={Timer:e,load:f};if(a){var c=a.navigationStart,d=a.responseStart;0<c&&d>=c&&(window.mobilespeed_jstiming.srt=d-c)}if(a){var b=window.mobilespeed_jstiming.load;0<c&&d>=c&&(b.tick("_wtsrt",
+void 0,c),b.tick("wtsrt_","_wtsrt",d),b.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),b&&0<c&&(b.tick("_tbnd",void 0,window.chrome.csi().startE),b.tick("tbnd_","_tbnd",c))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,b&&0<c&&(b.tick("_tbnd",void 0,window.external.startE),b.tick("tbnd_","_tbnd",c))),a&&(window.mobilespeed_jstiming.pt=a)}catch(g){}})();}).call(this);
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8"/>
+ 
+<title>Encryption Generator - Encrypt/Decrypt Text Online</title>
+<link rel="canonical" href="http://textmechanic.com/Encryption-Generator.html"/>
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript">
+var firstload = 'yes';
+var windo = '<a target="_self" class="nav" href="';
+var windochk = '';
+
+function windotargt(){
+if(document.getElementById('newwin').checked == true){
+windo = '<a target="_blank" class="nav" href="';
+windochk = 'CHECKED';
+} else {
+windo = '<a target="_self" class="nav" href="';
+windochk = '';}}
+
+function loadmenu(menuf){
+  resizepage();
+  return;
+var tlespn = '">';
+var endspn = '</a>';
+if(firstload == 'no'){
+if(menuf == 'open'){
+document.getElementById('menu').style.zIndex = '2';
+document.getElementById('menu').style.width = '280px';
+document.getElementById('menu').style.height = '100%';
+document.getElementById('menu').innerHTML =
+'<div style="padding:10px 0px 11px 10px;"><input type="button" style="margin-top:0px;" value="Close Tool Index" onClick="loadmenu(\'close\');" /></div>'+
+'<div class="navdiv"></div>'+
+'<div style="padding:15px 0px 12px 12px;"><input type="checkbox" id="newwin" onClick="windotargt(); setTimeout(\'loadmenu(&#092;&#039;open&#092;&#039;)\',100);" ' + windochk + ' /> Open tools in new window.</div>'+
+'<div class="navdiv"></div>'+
+windo + '/' + tlespn + 'Homepage | Descriptive Index' + endspn +
+'<div class="navdiv"></div>'+
+'<div class="navcat">Basic Text Tools:</div>'+
+windo + 'Add-Prefix-Suffix-to-Text.html' + tlespn + 'Add Prefix/Suffix into Line' + endspn +
+windo + 'Add-Remove-Line-Breaks.html' + tlespn + 'Add/Remove Line Breaks' + endspn +
+windo + 'Count-Text.html' + tlespn + 'Count Characters, Words...Lines' + endspn +
+windo + 'Delimited-Column-Extractor.html' + tlespn + 'Delimited Column Extractor' + endspn +
+windo + 'Find-and-Replace-Text.html' + tlespn + 'Find and Replace Text' + endspn +
+windo + 'Letter-Case-Converter.html' + tlespn + 'Letter Case Converter' + endspn +
+windo + 'Merge-Text-Line-by-Line.html' + tlespn + 'Merge Text (Line by Line)' + endspn +
+windo + 'Remove-Duplicate-Lines.html' + tlespn + 'Remove Duplicate Lines' + endspn +
+windo + 'Remove-Empty-Lines.html' + tlespn + 'Remove Empty Lines' + endspn +
+windo + 'Remove-Extra-Spaces.html' + tlespn + 'Remove Extra Spaces' + endspn +
+windo + 'Remove-Letter-Accents.html' + tlespn + 'Remove Letter Accents' + endspn +
+windo + 'Remove-Lines-Containing.html' + tlespn + 'Remove Lines Containing...' + endspn +
+windo + 'Sort-Text-Lines.html' + tlespn + 'Sort Text Lines' + endspn +
+'<div class="navdiv"></div>'+
+'<div class="navcat">Format Tools:</div>'+
+windo + 'ASCII-to-Unicode-Converter.html' + tlespn + 'ASCII to Unicode Converter' + endspn +
+'<div class="navdiv"></div>'+
+'<div class="navcat">Obfuscation Tools:</div>'+
+windo + 'Binary-Code-Translator.html' + tlespn + 'Binary Code Translator' + endspn +
+windo + 'Disemvowel-Tool.html' + tlespn + 'Disemvowel Tool' + endspn +
+windo + 'Encryption-Generator.html' + tlespn + 'Encryption Generator' + endspn +
+windo + 'Reverse-Text-Generator.html' + tlespn + 'Reverse Text Generator' + endspn +
+windo + 'ROT13-Caesar-Cipher.html' + tlespn + 'ROT13 Caesar Cipher' + endspn +
+windo + 'Word-Scrambler.html' + tlespn + 'Word Scrambler/Descrambler' + endspn +
+'<div class="navdiv"></div>'+
+'<div class="navcat">Randomization Tools:</div>'+
+windo + 'Random-Line-Picker.html' + tlespn + 'Random Line Picker' + endspn +
+windo + 'Random-Number-Generator.html' + tlespn + 'Random Number Generator' + endspn +
+windo + 'Random-String-Generator.html' + tlespn + 'Random String Generator' + endspn +
+windo + 'String-Randomizer.html' + tlespn + 'String Randomizer' + endspn +
+'<div class="navdiv"></div>'+
+'<div class="navcat">Combination / Permutation:</div>'+
+windo + 'Combination-Generator.html' + tlespn + 'Combination Generator' + endspn +
+windo + 'Line-Combination-Generator.html' + tlespn + 'Line Combination Generator' + endspn +
+windo + 'Permutation-Generator.html' + tlespn + 'Permutation Generator' + endspn +
+'<div class="navdiv"></div>'+
+'<div class="navcat">Numeration Tools:</div>'+
+windo + 'Generate-List-of-Numbers.html' + tlespn + 'Generate List of Numbers' + endspn +
+windo + 'Number-Each-Line.html' + tlespn + 'Number Each Line' + endspn +
+windo + 'Online-Tally-Counter.html' + tlespn + 'Online Tally Counter' + endspn +
+'<div class="navdiv"></div>'+
+'<div class="navcat">All-in-One Tool:</div>'+
+windo + 'Text-Manipulation-Notepad.html' + tlespn + 'Text Manipulation Notepad' + endspn +
+'<div class="navdiv"></div>'+
+'<div style="padding:19px 0px 7px 10px;"><input type="button" style="margin-top:0px;" value="Close Tool Index" onClick="loadmenu(\'close\');" /></div>';
+resizepage();
+} else {
+document.getElementById('menu').style.zIndex = '-1';
+document.getElementById('menu').style.width = '0px';
+document.getElementById('menu').style.height = '0%';
+document.getElementById('menu').innerHTML = '';}}
+if(firstload == 'yes'){
+firstload = 'no';
+resizepage();}}
+
+window.onresize = resizepage;
+
+var adjeleheight_cache = 0;
+
+function resizepage(){
+var adj_ele = 'input_output';
+var client_width = document.body.parentNode.clientWidth;
+var client_height = document.body.parentNode.clientHeight;
+var footer_bottom = document.getElementById('footer').getBoundingClientRect().bottom;
+var adjele_height = document.getElementById(adj_ele).offsetHeight;
+if(adjeleheight_cache == 0) adjeleheight_cache = adjele_height;
+var adj_height = (client_height - footer_bottom) + adjele_height;
+if(adj_height >= adjeleheight_cache){
+document.getElementById(adj_ele).style.height = adj_height + 'px';
+} else {
+document.getElementById(adj_ele).style.height = adjeleheight_cache + 'px;';}}
+
+var sc_project = '';
+var sc_invisible = 1;
+var sc_security = '';
+var iamcounted = 'no';
+
+function count_me(){
+if(iamcounted == 'no'){
+//document.getElementById('count_me').src = '';
+iamcounted = 'yes';}}
+
+function privacy_policy(){
+var text =
+'~ Privacy Policy ~\n\n'+
+'Log Files: This webserver records log files as required by United States law. The information inside the log files includes: ip address, date/time stamp, referring page and user agent.\n\n'+
+'Cookies: This website use cookies to store information about visitors preferences, record user-specific information on which pages the user access or visit, customize Web page content based on visitors browser type or other information that the visitor sends via their browser.\n\n'+
+'Tools: All tool are built-with and functions-in Client Side JavaScripting, so only your computer will see or process your data input/output. Input/processing/output data is never transmitted over the internet and always resides within your computer. However, cloud operating systems could transmit your data into the cloud\'s system for processing but this has nothing to do with the this webserver.\n\n'+
+'Sensitive Data Disclaimer: Don\'t trust any website with sensitive data, not even this website. Keep your sensitive data secure by keeping it to yourself.\n\n';
+alert(text);}
+</script>
+<script type="text/javascript">
+function loadfile(fileid,loadid){
+document.getElementById(loadid).value = 'Loading...';
+setTimeout(function(){loadfile2(fileid,loadid)},1000);}
+
+function loadfile2(fileid,loadid){
+if(!window.FileReader){
+document.getElementById(loadid).value = 'Your browser does not support HTML5 "FileReader" function required to open a file.';
+} else {
+fileis = document.getElementById(fileid).files[0];
+var fileredr = new FileReader();
+fileredr.onload = function(fle){
+var filecont = fle.target.result;
+document.getElementById(loadid).value = filecont;}
+fileredr.readAsText(fileis);}}
+
+function savefile(saveasid,saveid){
+if(!window.Blob){alert('Your browser does not support HTML5 "Blob" function required to save a file.');
+} else {
+var txtwrt = document.getElementById(saveid).value;
+if(document.getElementById('dos').checked == true) txtwrt = txtwrt.replace(/\n/g,'\r\n');
+var textblob = new Blob([txtwrt],{type:'text/plain'});
+var saveas =  document.getElementById(saveasid).value;
+var dwnlnk = document.createElement('a');
+dwnlnk.download = saveas;
+dwnlnk.innerHTML = "Download File";
+if (window.webkitURL != null){
+dwnlnk.href = window.webkitURL.createObjectURL(textblob);
+} else {
+dwnlnk.href = window.URL.createObjectURL(textblob);
+dwnlnk.onclick = destce;
+dwnlnk.style.display = 'none';
+document.body.appendChild(dwnlnk);}
+dwnlnk.click();}}
+function destce(event){document.body.removeChild(event.target);}
+
+function cleartext(){
+document.getElementById('input_output').value = '';
+document.getElementById('removed').innerHTML = ''}
+
+function SelectAll(id){
+document.getElementById(id).focus();
+document.getElementById(id).select();}
+
+function genradpas(){
+var chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%&*-+=?';
+var charsarr = chars.split('');
+var pasoutarr = new Array();
+for(var x=0;x<16;x++){
+pasoutarr[x] = charsarr[Math.floor(Math.random()*73)];}
+var pasout = pasoutarr.join('');
+document.getElementById('password').value = pasout;
+document.getElementById('pcount').innerHTML = '16';}
+
+function cntpass(){
+var passw = document.getElementById('password').value;
+var passcnt = passw.length;
+document.getElementById('pcount').innerHTML = passcnt;}
+
+//Below is built from JavaScript implementation of TEA copyright2000-2005 Chris Veness http://www.movable-type.co.uk/scripts/tea.html
+
+var keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+
+function Str4ToLong(s){
+var v = 0;
+for(var i=0; i<4; i++) v |= s.charCodeAt(i) << i*8;
+return isNaN(v) ? 0 : v;}
+
+function LongToStr4(v){
+var s = String.fromCharCode(v & 0xFF, v>>8 & 0xFF, v>>16 & 0xFF, v>>24 & 0xFF);
+return s;}
+
+function escCtrlCh(str){
+return str.replace(/[\0\t\n\v\f\r\xa0'"!]/g, function(c) { return '!' + c.charCodeAt(0) + '!'; });}
+function unescCtrlCh(str){
+return str.replace(/!\d\d?\d?!/g, function(c) { return String.fromCharCode(c.slice(1,-1)); });}
+function code(v,k){
+var y = v[0];
+z = v[1];
+var delta = 0x9E3779B9;
+var limit = delta*32;
+var sum = 0;
+while(sum != limit){
+y += (z<<4 ^ z>>>5)+z ^ sum+k[sum & 3];
+sum += delta;
+z += (y<<4 ^ y>>>5)+y ^ sum+k[sum>>>11 & 3];}
+v[0] = y; v[1] = z;}
+function decode(v,k){
+var y = v[0];
+z = v[1];
+var delta = 0x9E3779B9;
+var sum = delta*32;
+while(sum != 0){
+z -= (y<<4 ^ y>>>5)+y ^ sum+k[sum>>>11 & 3];
+sum -= delta;
+y -= (z<<4 ^ z>>>5)+z ^ sum+k[sum & 3];}
+v[0] = y; v[1] = z;}
+
+function encrypt(){
+var v = new Array(2);
+var k = new Array(4);
+var s = '';
+var i = '';
+var plaintext = escape(document.getElementById('input_output').value);
+var password = document.getElementById('password').value;
+for(var i=0;i<4;i++) k[i] = Str4ToLong(password.slice(i*4,(i+1)*4));
+for(i=0; i<plaintext.length; i+=8){
+v[0] = Str4ToLong(plaintext.slice(i,i+4));
+v[1] = Str4ToLong(plaintext.slice(i+4,i+8));
+code(v, k);
+s += LongToStr4(v[0]) + LongToStr4(v[1]);}
+var input = escCtrlCh(s);
+var output = "";
+var chr1, chr2, chr3;
+var enc1, enc2, enc3, enc4;
+var i = 0;
+while (i < input.length){
+chr1 = input.charCodeAt(i++);
+chr2 = input.charCodeAt(i++);
+chr3 = input.charCodeAt(i++);
+enc1 = chr1 >> 2;
+enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
+enc3 = ((chr2 & 15) << 2) | (chr3 >> 6);
+enc4 = chr3 & 63;
+if (isNaN(chr2)) {enc3 = enc4 = 64;}
+else if (isNaN(chr3)) {enc4 = 64;}
+output+=keyStr.charAt(enc1) + keyStr.charAt(enc2) + keyStr.charAt(enc3) + keyStr.charAt(enc4);}
+document.getElementById('input_output').value = output;
+count_me();}
+
+function decrypt(){
+var input = document.getElementById('input_output').value;
+var output = '';
+var chr1, chr2, chr3;
+var enc1, enc2, enc3, enc4;
+var i = 0;
+input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");
+while (i < input.length) {
+enc1 = keyStr.indexOf(input.charAt(i++));
+enc2 = keyStr.indexOf(input.charAt(i++));
+enc3 = keyStr.indexOf(input.charAt(i++));
+enc4 = keyStr.indexOf(input.charAt(i++));
+chr1 = (enc1 << 2) | (enc2 >> 4);
+chr2 = ((enc2 & 15) << 4) | (enc3 >> 2);
+chr3 = ((enc3 & 3) << 6) | enc4;
+output+=String.fromCharCode(chr1);
+if (enc3 != 64) {output+=String.fromCharCode(chr2);}
+if (enc4 != 64) {output+=String.fromCharCode(chr3);}}
+output = output.toString();
+var v = new Array(2);
+var k = new Array(4);
+var s = '';
+var i = '';
+var ciphertext = unescCtrlCh(output);
+var password = document.getElementById('password').value;
+for(var i=0;i<4;i++) k[i] = Str4ToLong(password.slice(i*4,(i+1)*4));
+for(i=0; i<ciphertext.length; i+=8) {
+v[0] = Str4ToLong(ciphertext.slice(i,i+4));
+v[1] = Str4ToLong(ciphertext.slice(i+4,i+8));
+decode(v, k);
+s += LongToStr4(v[0]) + LongToStr4(v[1]);}
+s = s.replace(/\0+$/, '');
+document.getElementById('input_output').value = unescape(s);
+count_me();}
+
+//End of JavaScript implementation of TEA
+</script>
+</head>
+<body spellcheck="false">
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//textmechanic.com/";
+    _paq.push(["setTrackerUrl", u+"tmtrack.php"]);
+    _paq.push(["setSiteId", "20"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+    g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"tmtrack.php"; s.parentNode.insertBefore(g,s);
+})();
+</script>
+<div id="menu"></div>
+<div id="bodypadding" style="margin-top:0px !important;">
+<h1>  E3: Easy Essay Encryptor</h1>
+<div style="padding:4px 0px 7px 0px;">
+<input type="button" value="Encrypt Text" onClick="encrypt();"/>
+<input type="button" value="Decrypt Text" onClick="decrypt();"/>
+Password:
+<input type="text" id="password" maxlength="16" value="" style="width:200px;" onKeyup="cntpass();" onPaste="setTimeout('cntpass()',500);"/>
+<span id="pcount">0</span>
+<input type="button" value="Generate Password" onClick="genradpas();"/>
+<input type="button" title="Select All Text" value="Select All" onClick="SelectAll('input_output')"/>
+<input type="button" title="Clear All Text" value="Clear Text" onClick="cleartext();"/>
+<span id="removed"></span>
+</div>
+<textarea id="input_output" style="width:100%;" rows="4" wrap="soft" placeholder="Enter text to be encrypted or decrypted here.
+
+Enter encryption/decryption password (up to 16 characters) into the 'Password' field above.
+Text will be encrypted/decrypted using Tiny Encryption Algorithm (TEA) and base64.
+Test by entering an essay and a password and click 'Encrypt Text' button to encrypt this default text. Then click 'Decrypt Text' to decrypt.
+'Generate Password' will generate a 16 character password. Remember to copy your newly generated password because it's unrecoverable!
+
+Privacy of Data: This tool is built-with and functions-in Client Side JavaScripting, so only your computer will see or process your data input/output."></textarea>
+<div style="padding:7px 0px 0px 0px;">
+<input type="button" value="Load File"/><input type="file" id="file" onChange="setTimeout('loadfile(\'file\',\'input_output\')',100);"/>
+<input type="button" value="Save As" onClick="savefile('saveas','input_output');"/>
+<input type="text" id="saveas" value="output.txt" style="width:90px;"/>&nbsp;
+<input type="radio" name="sfrmt" id="unix" CHECKED />Unix
+<input type="radio" name="sfrmt" id="dos"/>Dos.
+Word wrap is <input type="radio" name="radbtn" id="wrapbtnl" onClick="var area=document.getElementById('input_output'); area.setAttribute('wrap','soft'); var newarea=area.cloneNode(true); newarea.value=area.value; area.parentNode.replaceChild(newarea,area);" CHECKED />on
+<input type="radio" name="radbtn" id="wrapbtnr" onClick="var area=document.getElementById('input_output'); area.setAttribute('wrap','off'); var newarea=area.cloneNode(true); newarea.value=area.value; area.parentNode.replaceChild(newarea,area);"/>off.
+</div>
+<div id="footer">
+Project modified by DavyDev. Source cloned from &copy; 2015 <a href="http://textmechanic.com" style="color:#0000FF;">TextMechanic</a> |
+<span style="color:#0000FF; text-decoration:underline; cursor:pointer;" onclick="privacy_policy();">Privacy Policy</span>
+</div>
+</div>
+<script type="text/javascript">loadmenu('close');</script>
+<script type="text/javascript" id="count_me"></script>
+<script>(function(){var d="webkitvisibilitychange",g="_ns";if(window.mobilespeed_jstiming){window.mobilespeed_jstiming.a={};window.mobilespeed_jstiming.b=1;var n=function(b,a,e){var c=b.t[a],f=b.t.start;if(c&&(f||e))return c=b.t[a][0],void 0!=e?f=e:f=f[0],Math.round(c-f)},p=function(b,a,e){var c="";window.mobilespeed_jstiming.srt&&(c+="&srt="+window.mobilespeed_jstiming.srt,delete window.mobilespeed_jstiming.srt);window.mobilespeed_jstiming.pt&&(c+="&tbsrt="+window.mobilespeed_jstiming.pt,delete window.mobilespeed_jstiming.pt);try{window.external&&window.external.tran?
+c+="&tran="+window.external.tran:window.gtbExternal&&window.gtbExternal.tran?c+="&tran="+window.gtbExternal.tran():window.chrome&&window.chrome.csi&&(c+="&tran="+window.chrome.csi().tran)}catch(v){}var f=window.chrome;if(f&&(f=f.loadTimes)){f().wasFetchedViaSpdy&&(c+="&p=s");if(f().wasNpnNegotiated){var c=c+"&npn=1",h=f().npnNegotiatedProtocol;h&&(c+="&npnv="+(encodeURIComponent||escape)(h))}f().wasAlternateProtocolAvailable&&(c+="&apa=1")}var l=b.t,t=l.start,f=[],h=[],k;for(k in l)if("start"!=k&&
+0!=k.indexOf("_")){var m=l[k][1];m?l[m]&&h.push(k+"."+n(b,k,l[m][0])):t&&f.push(k+"."+n(b,k))}delete l.start;if(a)for(var q in a)c+="&"+q+"="+a[q];(a=e)||(a="https:"==document.location.protocol?"https://csi.gstatic.com/csi":"http://csi.gstatic.com/csi");return[a,"?v=3","&s="+(window.mobilespeed_jstiming.sn||"mobilespeed")+"&action=",b.name,h.length?"&it="+h.join(","):"",c,"&rt=",f.join(",")].join("")},r=function(b,a,e){b=p(b,a,e);if(!b)return"";a=new Image;var c=window.mobilespeed_jstiming.b++;window.mobilespeed_jstiming.a[c]=
+a;a.onload=a.onerror=function(){window.mobilespeed_jstiming&&delete window.mobilespeed_jstiming.a[c]};a.src=b;a=null;return b};window.mobilespeed_jstiming.report=function(b,a,e){if("prerender"==document.webkitVisibilityState){var c=!1,f=function(){if(!c){a?a.prerender="1":a={prerender:"1"};var h;"prerender"==document.webkitVisibilityState?h=!1:(r(b,a,e),h=!0);h&&(c=!0,document.removeEventListener(d,f,!1))}};document.addEventListener(d,f,!1);return""}return r(b,a,e)};var u=function(b,a,e,c){return 0<
+e?(c?b.tick(a,c,e):b.tick(a,"",e),!0):!1};window.mobilespeed_jstiming.getNavTiming=function(b){if(window.performance&&window.performance.timing){var a=window.performance.timing;u(b,"_dns",a.domainLookupStart)&&u(b,"dns_",a.domainLookupEnd,"_dns");u(b,"_con",a.connectStart)&&u(b,"con_",a.connectEnd,"_con");u(b,"_req",a.requestStart)&&u(b,"req_",a.responseStart,"_req");u(b,"_rcv",a.responseStart)&&u(b,"rcv_",a.responseEnd,"_rcv");if(u(b,g,a.navigationStart)){u(b,"ntsrt_",a.responseStart,g);u(b,"nsfs_",
+a.fetchStart,g);u(b,"nsrs_",a.redirectStart,g);u(b,"nsre_",a.redirectEnd,g);u(b,"nsds_",a.domainLookupStart,g);u(b,"nscs_",a.connectStart,g);u(b,"nsrqs_",a.requestStart,g);var e=!1;try{e=window.external&&window.external.startE}catch(c){}!e&&window.chrome&&window.chrome.csi&&(e=Math.floor(window.chrome.csi().startE));e&&(u(b,"_se",e),u(b,"sens_",a.navigationStart,"_se"));u(b,"ntplt0_",a.loadEventStart,g);u(b,"ntplt1_",a.loadEventEnd,g);window.chrome&&window.chrome.loadTimes&&(a=window.chrome.loadTimes().firstPaintTime)&&
+u(b,"nsfp_",1E3*a,g)}}}};}).call(this);
+</script><script>(function(){var a=window.mobilespeed_jstiming,b=a.load;window.top==window&&window.addEventListener("load",function(){b.name="load";b.tick("ol");a.getNavTiming(b);setTimeout(function(){a.report(b,{e:"default_policy"})},300)},!1);}).call(this);
+</script></body>
+</html>
